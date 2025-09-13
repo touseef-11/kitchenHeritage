@@ -27,7 +27,7 @@ export const lightColors = {
 export const darkColors = {
   // Base
   background: "#121212", // deep charcoal background
-  surface: "#1E1E1E", // card / container backgrounds
+  surface: "#6b6868ff", // card / container backgrounds
   border: "#2D2D2D", // subtle borders / dividers
 
   // Text

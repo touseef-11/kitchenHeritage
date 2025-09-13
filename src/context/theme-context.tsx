@@ -7,8 +7,7 @@ import {
 } from "react";
 import { useColorScheme } from "react-native";
 import { darkTheme, lightTheme } from "../theme";
-type ThemeType = typeof lightTheme;
-
+type ThemeType = typeof lightTheme | typeof darkTheme;
 interface ThemeContextProps {
   theme: ThemeType;
   toggleTheme: () => void;
